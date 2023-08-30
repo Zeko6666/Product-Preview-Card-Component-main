@@ -110,6 +110,8 @@ button{
     -o-border-radius: 15px;
     color: #fff;
     position: relative;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 button:hover{
@@ -119,12 +121,13 @@ button:hover{
 button img{
     position: absolute;
     top: 50%;
-    left: 28%;
+    left: 16%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    width: 25px;
 }
 
 @media (max-width: 767px) {
@@ -173,7 +176,14 @@ button img{
     -o-border-radius: 0 0 15px 15px;
 }
 p{
-    /* margin: auto; */
     min-width: 270px;
+}
+
+button{
+    font-size: 16px;
+}
+button img{
+    width: 15px;
+    left: 26%;
 }
 }
