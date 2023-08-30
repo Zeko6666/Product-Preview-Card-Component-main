@@ -112,6 +112,10 @@ button{
     position: relative;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: #1a4031;
+}
 button img{
     position: absolute;
     top: 50%;
